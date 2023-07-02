@@ -4,6 +4,6 @@ import (
 	comp "github.com/grimoh/completion-gen-fish/pkg/cmd/completion-gen-fish"
 )
 
-func main {
+func main() {
 	comp.Execute()
 }
