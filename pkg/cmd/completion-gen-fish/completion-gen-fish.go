@@ -21,6 +21,6 @@ func Execute() {
 }
 
 func init() {
-	rootCmd.PersistentFlags().StringVar(&target, "target-command", "t", "")
-	rootCmd.PersistentFlags().StringVar(&reference, "reference", "r", "")
+	rootCmd.PersistentFlags().StringVar(&target, "target-command", "t", "target command")
+	rootCmd.PersistentFlags().StringVar(&reference, "reference", "r", "reference, man or help")
 }
